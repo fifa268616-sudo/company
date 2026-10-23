@@ -38,7 +38,7 @@ a {
 }
 #header {
   background-image: linear-gradient(#3b373580, #3b373580),
-    url(/images/header-bg.jpg);
+    url(images/header-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -343,7 +343,7 @@ position: relative;
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(/svgs/shape1.svg);
+  background-image: url(svgs/shape1.svg);
   background-repeat: no-repeat;
   background-size: auto;
 z-index: 1;
@@ -355,7 +355,7 @@ z-index: 1;
   bottom: 0;
   right: 0;
   left: -65rem;
-  background-image: url(/svgs/shape2.svg);
+  background-image: url(svgs/shape2.svg);
   background-repeat: no-repeat;
   background-size: auto;
 z-index: 1;
@@ -530,7 +530,7 @@ top: 42%;
 bottom: 0;
 right: 0;
 left: -92%;
-background-image: url(../svgs/shape3.svg);
+background-image: url(..svgs/shape3.svg);
 background-repeat: no-repeat;
 background-size: cover;
 }
