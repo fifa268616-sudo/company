@@ -1,0 +1,192 @@
+
+@media screen and (min-width: 300px) {
+    .content__title{
+        font-size: 3.5rem;
+    }
+       .footer-wrapper{
+     flex-wrap: wrap;   
+    }
+   .right{
+    flex-wrap: wrap;
+   }
+}
+
+
+
+@media screen and (min-width: 576px) {
+    .container{
+        width: 54rem;
+    }
+    .content__comment{
+        max-width: 45rem;
+        margin: 14rem auto;
+    }
+    
+    .place{
+        min-width: 29.5rem;
+    }
+    .comment-text__titr{
+        max-width: 100%;
+    }
+   
+   }
+@media screen and (min-width: 768px) {
+    .container{
+        width: 72rem;
+    }
+    .mobile-mune{
+        display: none;
+    }
+    .mobile-list{
+        display: none;
+    }
+    .nav-lists{
+        display: block;
+    }
+    .content__comment{
+        margin: 10rem auto;
+    }
+    .services{
+        flex-direction: row;
+        /* justify-content: space-around; */
+        gap: 1rem;
+        height: auto;
+    }
+    .service{
+        min-width: 22rem;
+    }
+    .comment{
+        flex-direction: row-reverse;
+        width: 61rem;
+        justify-content: space-between;
+    }
+    .comment-text__titr{
+        text-align: center;
+    }
+    .comment-img{
+        width: 55%;
+    }
+    .comment-home{
+        width: 40%;
+    }
+    .comment-wrapper{
+        width: 28rem;
+    }
+.footer-icon-top{
+    right: 6rem;
+}
+.comment::before{
+    background-size: cover;
+    background-position: center left;
+            top: 0rem;
+        left: -4rem;
+        }
+        .destinations::after{
+            top: -9rem;
+            left: 32rem;
+        }
+        .destinations::before {
+top: 134rem;
+left: -63rem;
+        }
+}
+
+@media screen and (min-width: 992px) {
+    .container{
+        width: 96rem;
+    }
+    .header-links{
+        display: block;
+    }
+    .comment{
+        
+        width: 93rem;
+    }
+    .comment-img{
+        width: 42%;
+    }
+    .comment-home{
+        width: 58%;
+    }
+    .comment-wrapper{
+        width: 38rem;
+    }
+       .footer-wrapper{
+     flex-wrap: nowrap
+      
+    }
+      .footer-left{
+max-width: 40%;
+    }
+      .right{
+    flex-wrap: nowrap;
+   }
+       .destinations::before {
+        top: 70rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 114rem;
+    }
+    .content__title {
+        font-size: 4.5rem;
+    }
+    .service{
+        max-width: 27rem;
+        position: relative;
+        top: -5rem;
+    }
+    .place{
+        min-width: 28.5rem;
+    }
+        .destinations::after {
+        top: -50rem;
+        left: 73rem;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .container{
+        width: 137rem;
+    }
+    .comment{
+        width: 120rem;
+    }
+    .comment-wrapper{
+        margin-top: 6rem;
+        width: 50rem;
+        justify-content: revert-rule;
+    }
+    .destinations::after {
+        top: -30rem;
+        left: 92rem;
+    }
+    .destinations::before {
+        top: 32rem;
+        left: -63rem;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .container{
+        width: 157rem;
+    }
+    .comment{
+        width: 152rem;
+    }
+    .destinations::after {
+        top: -20rem;
+        left: 102rem;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .container{
+        width: 187rem;
+    }
+    .comment{
+        width: 183rem;
+    }
+    .destinations::after {
+        top: -20rem;
+        left: 124rem;
+    }
+}
